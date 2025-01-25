@@ -9,10 +9,10 @@ class Product(BaseModel):
 router = APIRouter(prefix='/products',tags=['products'])
 
 products_list = [Product(name='Cafetera',id=0,price=12.99),
-                 Product(name='Helado',id=1,price=3.99),
-                 Product(name='Microondas',id=2,price=15.50),
-                 Product(name='Pan',id=3,price=2.00),
-                 Product(name='Hoodie',id=4,price=10.20),]
+                Product(name='Helado',id=1,price=3.99),
+                Product(name='Microondas',id=2,price=15.50),
+                Product(name='Pan',id=3,price=2.00),
+                Product(name='Hoodie',id=4,price=10.20),]
 
 @router.get('/')
 async def products_db():

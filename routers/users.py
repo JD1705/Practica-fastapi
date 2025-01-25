@@ -15,23 +15,23 @@ class User(BaseModel):
 
 #lista de usuarios para simular una base de datos
 users_list = [User(username='JD1705',id=1,name='jesus',surname='perdomo',age=20),
-              User(username='jc',id=2,name='juan',surname='carlos',age=2),
-              User(username='elenita',id=3,name='marta',surname='elena',age=21),
-              User(username='JD1705',id=4,name='jesus',surname='perdomo',age=20),
-              User(username='jc',id=5,name='juan',surname='carlos',age=2),
-              User(username='elenita',id=6,name='marta',surname='elena',age=21),
-              User(username='JD1705',id=7,name='jesus',surname='perdomo',age=20),
-              User(username='jc',id=8,name='juan',surname='carlos',age=2),
-              User(username='elenita',id=9,name='marta',surname='elena',age=21),
-              User(username='JD1705',id=10,name='jesus',surname='perdomo',age=20),
-              User(username='jc',id=11,name='juan',surname='carlos',age=2),
-              User(username='elenita',id=12,name='marta',surname='elena',age=21),
-              User(username='JD1705',id=13,name='jesus',surname='perdomo',age=20),
-              User(username='jc',id=14,name='juan',surname='carlos',age=2),
-              User(username='elenita',id=15,name='marta',surname='elena',age=21),
-              User(username='JD1705',id=16,name='jesus',surname='perdomo',age=20),
-              User(username='jc',id=17,name='juan',surname='carlos',age=2),
-              User(username='elenita',id=18,name='marta',surname='elena',age=21)]
+            User(username='jc',id=2,name='juan',surname='carlos',age=2),
+            User(username='elenita',id=3,name='marta',surname='elena',age=21),
+            User(username='JD1705',id=4,name='jesus',surname='perdomo',age=20),
+            User(username='jc',id=5,name='juan',surname='carlos',age=2),
+            User(username='elenita',id=6,name='marta',surname='elena',age=21),
+            User(username='JD1705',id=7,name='jesus',surname='perdomo',age=20),
+            User(username='jc',id=8,name='juan',surname='carlos',age=2),
+            User(username='elenita',id=9,name='marta',surname='elena',age=21),
+            User(username='JD1705',id=10,name='jesus',surname='perdomo',age=20),
+            User(username='jc',id=11,name='juan',surname='carlos',age=2),
+            User(username='elenita',id=12,name='marta',surname='elena',age=21),
+            User(username='JD1705',id=13,name='jesus',surname='perdomo',age=20),
+            User(username='jc',id=14,name='juan',surname='carlos',age=2),
+            User(username='elenita',id=15,name='marta',surname='elena',age=21),
+            User(username='JD1705',id=16,name='jesus',surname='perdomo',age=20),
+            User(username='jc',id=17,name='juan',surname='carlos',age=2),
+            User(username='elenita',id=18,name='marta',surname='elena',age=21)]
 
 #lista con los usuarios de forma no optima
 @router.get('/usersjson')
